@@ -1,0 +1,525 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EAF4FF;
+}
+
+.img-bg {
+    margin-left: 800px;
+}
+
+.container {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+}
+
+option {
+    font-size: 10px;
+    background-color: #EAF4FF;
+}
+
+select {
+    border: none;
+    background-color: #EAF4FF;
+    margin-top: 15px;
+    font-size: 18px;
+    color: #022A75;
+    font-weight: 500;
+}
+
+.nav-link {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(2, 42, 117, 1);
+    /* margin-left: 50px; */
+    margin-top: 7px;
+}
+
+.btn_sign-up {
+    width: 150px;
+    height: 35px;
+    background-color: #228B22;
+    border-radius: 30px;
+    color: white;
+    border: none;
+    margin-left: 20px;
+    margin-top: 11px;
+}
+
+#logo {
+    margin-left: 200px;
+    margin-top: -2px;
+}
+
+#login {
+    margin-left: 290px;
+}
+
+#corepixel-nav {
+    margin-top: -60px;
+}
+
+.row {
+    /* border: 1px solid black; */
+    margin-top: 80px;
+}
+
+/* .col-lg-5 {
+    order: -1;
+} */
+
+.hero-image {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.hero-image {
+    -webkit-animation: mover 1s infinite alternate;
+    animation: mover 1s infinite alternate;
+}
+
+.hero-image {
+    -webkit-animation: mover 1s infinite alternate;
+    animation: mover 1s infinite alternate;
+}
+
+@-webkit-keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-30px);
+    }
+}
+
+@keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-30px);
+    }
+}
+
+h1 {
+    color: rgba(2, 42, 117, 1);
+    font-weight: 700;
+    font-size: 50px;
+    margin-left: 10px;
+}
+
+span {
+    color: #414141;
+    font-weight: 700;
+}
+
+h2 {
+    color: #414141;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+P {
+    font-weight: 300;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+/* .col-lg-7 {
+    border: 1px solid black;
+}
+
+.row {
+    border: 1px solid black;
+}
+
+.col-lg-4 {
+
+    border: 1px solid red;
+
+} */
+
+.btn-hero {
+    border-radius: 40px;
+    width: 220px;
+    display: block;
+    margin: auto;
+    background-color: #2F76FB;
+    height: 50px;
+    border: none;
+}
+
+.btn-heros {
+    border-radius: 40px;
+    width: 220px;
+    display: block;
+    margin: auto;
+    background-color: #022A75;
+    height: 50px;
+    border: none;
+}
+
+.arrow-img {
+    margin-top: -8px;
+    margin-left: -30px;
+}
+
+.arrow-img1 {
+    margin-left: -80px;
+    margin-top: -8px;
+}
+
+.arrow-img2 {
+    margin-left: -50px;
+    margin-top: -8px;
+}
+
+.arrow-img3 {
+    margin-left: -60px;
+    margin-top: -8px;
+}
+
+.arrow-img4 {
+    margin-left: -40px;
+    margin-top: -8px;
+}
+
+.arrow-img5 {
+    margin-left: -10px;
+    margin-top: -8px;
+}
+
+.arrow-img6 {
+    margin-left: -5px;
+    margin-top: -8px;
+}
+
+.arrow-img7 {
+    margin-left: -50px;
+    margin-top: -8px;
+}
+
+.arrow-img8 {
+    margin-left: -80px;
+    margin-top: -8px;
+}
+
+#row-button {
+    margin-top: 40px;
+}
+
+#row2-button,
+#row3-button {
+    margin-top: 20px;
+}
+
+.text-btn {
+    margin-left: 10px;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
+.need_help {
+    width: 700px;
+    height: 50px;
+    /* border: 1px solid black; */
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+    background: #2F76FB;
+    border-radius: 50px 50px 0px 0px;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+}
+
+.col-lg-3 {
+    /* border: 1px solid red; */
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.heading-card {
+    width: 90%;
+    /* border: 1px solid green; */
+    height: 40px;
+    text-align: center;
+    padding-top: 5px;
+    font-weight: 500;
+    color: #022A75;
+    background-color: #EAF4FF;
+    border-radius: 10px;
+    display: block;
+    margin: 20px auto;
+}
+
+h4 {
+    font-weight: 600;
+    font-size: 22px;
+    text-align: center;
+    color: #022A75;
+}
+
+.img-card1 {
+    width: 100%;
+    margin-top: 70px;
+}
+
+.img-card2 {
+    width: 100%;
+    margin-top: 40px;
+}
+
+h5 {
+    font-weight: 600;
+    font-size: 28px;
+    text-align: justify;
+    margin-top: 30px;
+    color: white;
+}
+
+h6 {
+    font-weight: 500;
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 20px;
+    color: white;
+}
+
+#card-3 {
+    height: 440px;
+    background-color: #022A75;
+}
+
+.col-lg-3 {
+    background-color: white;
+}
+
+.text-card {
+    font-weight: 400;
+    font-size: 15px;
+    text-align: justify;
+    margin-top: 20px;
+    color: white;
+}
+
+.text-card3 {
+    font-weight: 700;
+    font-size: 12px;
+    color: white;
+}
+
+/* ----------------------------------------------------------------------------- */
+@media only screen and (max-width:768px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .img-bg {
+        margin-left: 50px;
+    }
+
+    .navbar-nav {
+        animation: navbar 1s;
+        position: relative;
+    }
+
+    @keyframes navbar {
+        from {
+            left: -200px;
+        }
+
+        to {
+            left: 0px;
+        }
+    }
+
+    .nav-link {
+        border: 1px solid black;
+        width: 200px;
+        text-align: center;
+        font-weight: 700;
+        background-color: #228B22;
+        color: white;
+        border-radius: 20px;
+
+    }
+
+    select {
+        border: 1px solid black;
+        width: 200px;
+        height: 50px;
+        text-align: center;
+        font-weight: 700;
+        background-color: #228B22;
+        color: white;
+        border-radius: 20px;
+    }
+
+    #login {
+        margin-left: 0px;
+        margin-top: -10px;
+    }
+
+    .btn_sign-up {
+        width: 200px;
+
+        height: 50px;
+        margin-left: 0px;
+        font-size: 18px;
+    }
+
+    .logo-image {
+        margin-left: 100px;
+        margin-top: -400px;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    h2 {
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    .col-lg-4 {
+        display: block;
+        margin: 15px auto;
+    }
+
+    .col-lg-5 {
+        order: -1;
+    }
+
+    .need_help {
+        width: 100%;
+        display: block;
+        margin: 40px auto;
+    }
+
+    .col-lg-3 {
+        width: 90%;
+        box-shadow: 0px 1px 5px 5px chartreuse;
+    }
+
+    #col-card2 {
+        margin-top: 40px;
+    }
+
+    #card-3 {
+        margin-top: 40px;
+        margin-bottom: 50px;
+        height: 500px;
+    }
+
+    h5 {
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    h6 {
+        text-align: center;
+    }
+
+    .text-card {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:567px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .img-bg {
+        margin-left: 50px;
+        width: 50%;
+    }
+
+    .navbar-nav {
+        animation: navbar 1s;
+        position: relative;
+    }
+
+    @keyframes navbar {
+        from {
+            left: -200px;
+        }
+
+        to {
+            left: 0px;
+        }
+    }
+
+    .nav-link {
+        border: 1px solid black;
+        width: 150px;
+        text-align: center;
+        font-weight: 600;
+        background-color: #228B22;
+        color: white;
+        border-radius: 20px;
+        font-size: 14px;
+
+    }
+
+    select {
+        border: 1px solid black;
+        width: 150px;
+        height: 40px;
+        text-align: center;
+        font-weight: 600;
+        background-color: #228B22;
+        color: white;
+        border-radius: 20px;
+        font-size: 14px;
+    }
+
+    #login {
+        margin-left: 0px;
+        margin-top: -10px;
+    }
+
+    .btn_sign-up {
+        width: 150px;
+        font-size: 14px;
+    }
+
+    .logo-image {
+        width: 100px;
+        height: 20px;
+        margin-left: 20px;
+    }
+
+    .need_help {
+        height: 80px;
+    }
+}
+
